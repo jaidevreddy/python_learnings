@@ -1,0 +1,1 @@
+print("Your Beer Brand Name is:\n" + "'" + input("favourite color:") + " " + input("favourite number:")  + "'"  + "\ncongrats you got your name")
