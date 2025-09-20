@@ -1,12 +1,12 @@
-dict = {"k1":["a","b","c"], "k2":["d","e","f"]}
+dictionary = {"k1":["a","b","c"], "k2":["d","e","f"]}
 
-res = dict["k1"][2]
+res = dictionary["k1"][2]
 
-print(dict["k1"])
-print(dict["k1"][1])
+print(dictionary["k1"])
+print(dictionary["k1"][1])
 print(res)
-print(dict["k2"][1].upper())
+print(dictionary["k2"][1].upper())
 
-dict["k3"] = "g"
+dictionary["k3"] = "g"
 
-print(dict)
+print(dictionary)
