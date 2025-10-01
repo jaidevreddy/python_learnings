@@ -1,1 +1,1 @@
-print("Your Beer Brand name is\n" + "\"" + (input("your favourite color ")) + (input("Your favorite animal ")) + "\"" + "\nYou got your brand name")
+print("Your Beer Brand name is\n" + "\"" + (input("Enter your favourite color: ")) + (input("Enter your favorite animal: ")) + "\"" + "\n" + "\nYou got your brand name")
