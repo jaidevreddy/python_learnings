@@ -1,5 +1,5 @@
-name = (input("enter your name: "))
+name1 = (input("enter your name: "))
 name2 = " python"
-full_name = name + name2
+full_name = name1 + name2
 
 print("your name is " + full_name)
