@@ -42,3 +42,7 @@ newlist = list2.copy()
 expermentlist = list2
 print(newlist)
 print(expermentlist)
+
+lists = [[1,2,4],["a","b","c"],[1.2,1.3,1.4]]
+lists1 = lists[0][1]
+print(lists1)
