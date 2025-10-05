@@ -34,3 +34,11 @@ print(delete)
 list3 = [2,1,4,3,9,7,6,5,10,8]
 list3.sort()
 print(list3)
+
+list.reverse()
+print(list)
+
+newlist = list2.copy()
+expermentlist = list2
+print(newlist)
+print(expermentlist)
