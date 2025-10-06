@@ -19,6 +19,6 @@ s3.remove(3)
 s3.discard(6)
 print(s3)
 
-popset = {'a','b','c'}
-popset.pop()
-print(popset)
+pset = {'a','b','c'}
+pset.pop()
+print(pset)
