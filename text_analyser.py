@@ -1,26 +1,14 @@
-text = input("enter any text: ").lower()
-letter1 = input("enter first letter: ").lower()
-letter2 = input("enter second letter: ").lower()
-letter3 = input("enter third letter: ").lower()
+text = input("Enter your text: ").lower()
+letters = []
+print("\n")
 
-count1 = text.count(letter1)
-count2 = text.count(letter2)
-count3 = text.count(letter3)
+letters.append(input("enter first letter for count: "))
+letters.append(input("enter second letter for count: "))
+letters.append(input("enter third letter for count: "))
+print('\n')
+print("how many times each of the chosen letters appears:")
+print(f'the letter "{letters[0]}" repeats: "{text.count(letters[0])}"')
+print(f'the letter "{letters[1]}" repeats: "{text.count(letters[1])}"')
+print(f'the letter "{letters[2]}" repeats: "{text.count(letters[2])}"')
 
-print(f'The Letter "{letter1}" appears {count1} Times')
-print(f'The Letter "{letter2}" appears {count2} Times')
-print(f'The Letter "{letter3}" appears {count3} Times')
 
-word_list = text.split()
-wordcount = len(word_list)
-print(f"the total words are {wordcount}")
-
-print(f"the first word is {word_list[0]} and last word is {word_list[-1]}")
-
-word_list.reverse()
-reversetext = " ".join(word_list)
-print(reversetext)
-
-ispython = "python" in text 
-dic = {True: "Yes" , False: "No"}
-print(f"Python Exists: {dic[ispython]}")
