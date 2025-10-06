@@ -2,9 +2,9 @@ text = input("Enter your text: ").lower()
 letters = []
 print("\n")
 
-letters.append(input("enter first letter for count: "))
-letters.append(input("enter second letter for count: "))
-letters.append(input("enter third letter for count: "))
+letters.append(input("enter first letter for count: ").lower())
+letters.append(input("enter second letter for count: ").lower())
+letters.append(input("enter third letter for count: ").lower())
 print('\n')
 print("how many times each of the chosen letters appears:")
 print(f'the letter "{letters[0]}" repeats: "{text.count(letters[0])}"')
@@ -27,7 +27,16 @@ print('Reversed Text:')
 print(f'{reversed}')
 print('\n')
 
+Python_present = {True:"Yes the word python exist", False:"The word python doesnt exist"}
+check_python = "python" in text
+print(f'{Python_present[check_python]}')
+print('\n')
 
-
+word = input('enter the word you want to check is exist: ').lower()
+word = word.split()
+theword = "".join(word)
+word_dict = {True:"exists", False:"doesn't exist"}
+word_check = word[0] in text
+print(f'The word {theword} {word_dict[word_check]} in the text')
 
 
