@@ -21,6 +21,12 @@ last_letter = text[-1]
 print(f'the fisrt letter is "{first_letter}" and the last letter is "{last_letter}"')
 print("\n")
 
+words.reverse()
+reversed = " ".join(words)
+print('Reversed Text:')
+print(f'{reversed}')
+print('\n')
+
 
 
 
