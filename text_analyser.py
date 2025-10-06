@@ -13,8 +13,15 @@ print(f'the letter "{letters[2]}" repeats: "{text.count(letters[2])}"')
 print('\n')
 
 words = text.split()
-print(f'Total number of word in the the text is {len(words)}')
+print(f'Total number of word in the the text is "{len(words)}"')
 print('\n')
+
+first_letter = text[0]
+last_letter = text[-1]
+print(f'the fisrt letter is "{first_letter}" and the last letter is "{last_letter}"')
+print("\n")
+
+
 
 
 
