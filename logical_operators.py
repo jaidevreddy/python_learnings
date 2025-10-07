@@ -8,3 +8,6 @@ print(mybool1)
 
 mybool2 = not 1 == 2
 print(mybool2)
+
+mybool3 = not ("paragraph" in text) and not ('long' in text)
+print(mybool3)
