@@ -41,3 +41,9 @@ dict = {'k1':'a','k2':'b','k3':'c'}
 
 for items in dict:
     print(items)
+for items in dict.items():
+    print(items)
+for items in dict.values():
+    print(items)
+for a, b in dict.items():
+    print(a + " " +b)
