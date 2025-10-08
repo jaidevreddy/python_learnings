@@ -10,3 +10,13 @@ nameslist = ['paul','laura','julie','louis','fede']
 for name in nameslist:
     if name.startswith('l'):
         print(name)
+
+
+numbers = [1,2,3,4,5]
+myvalue = 0
+
+for num in numbers:
+    myvalue = myvalue + num
+
+print(myvalue)
+
