@@ -47,3 +47,21 @@ for items in dict.values():
     print(items)
 for a, b in dict.items():
     print(a + " " +b)
+
+
+list_numbers = [1,5,8,7,6,8,2,5,2,6,4,8,5,9,8,3,5,4,2,5,6,4]
+
+sumeven = 0
+sumodd = 0
+
+for num in list_numbers:
+    if num%2 ==0:
+        sumeven = sumeven + num
+    elif num%2 == 1:
+        sumodd = sumodd + num 
+    else:
+        print("error")
+
+print(sumodd)
+print(sumeven)
+
