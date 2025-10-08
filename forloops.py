@@ -35,3 +35,9 @@ for num in [[1,2],[3,4],[5,6]]:
 for a, b in [[1,2],[3,4],[5,6]]:
     print(a)
     print(b)
+
+
+dict = {'k1':'a','k2':'b','k3':'c'}
+
+for items in dict:
+    print(items)
