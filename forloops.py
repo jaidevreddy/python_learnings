@@ -20,3 +20,18 @@ for num in numbers:
 
 print(myvalue)
 
+
+word = "python"
+
+for letter in word:
+    print(letter)
+
+for letter in "code":
+    print(letter)
+
+for num in [[1,2],[3,4],[5,6]]:
+    print(num)
+
+for a, b in [[1,2],[3,4],[5,6]]:
+    print(a)
+    print(b)
