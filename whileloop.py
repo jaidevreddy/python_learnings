@@ -38,7 +38,7 @@ while True:
     if reply == 'n':
         continue
     if reply == "1":
-        print("you decided to end")
+        print("you decided to end the loop")
         break
     parts = reply.split()
     letter.extend(parts)
