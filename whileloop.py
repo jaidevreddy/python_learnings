@@ -19,3 +19,18 @@ while answer == 'y':
     pass
 
 print ("hello world")
+
+
+letter = []
+
+while True:
+    reply = input('enter your letter: ')
+    if reply == 'n':
+        print("you decide to end")
+        break
+    
+    parts = reply.split()
+    letter.extend(parts)
+    print(letter)
+
+
