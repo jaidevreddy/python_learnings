@@ -71,3 +71,9 @@ for letters in name:
     if letters == 'r':
         break
     print(letters)
+    print("\n")
+
+for letters in name:
+    if letters == 'r':
+        continue
+    print(letters)
