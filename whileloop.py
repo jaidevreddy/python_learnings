@@ -25,10 +25,21 @@ letter = []
 
 while True:
     reply = input('enter your letter: ')
-    if reply == 'n':
+    if reply == "1":
         print("you decide to end")
         break
     
+    parts = reply.split()
+    letter.extend(parts)
+    print(letter)
+
+while True:
+    reply = input('enter your letter: ')
+    if reply == 'n':
+        continue
+    if reply == "1":
+        print("you decided to end")
+        break
     parts = reply.split()
     letter.extend(parts)
     print(letter)
