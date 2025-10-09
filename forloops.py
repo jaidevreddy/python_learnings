@@ -65,3 +65,9 @@ for num in list_numbers:
 print(sumodd)
 print(sumeven)
 
+name = input("enter your name: ").lower()
+
+for letters in name:
+    if letters == 'r':
+        break
+    print(letters)
