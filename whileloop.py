@@ -14,3 +14,8 @@ while answer =='y':
         print("you deicded to continue") 
 else:
     print("you decide to end")   
+
+while answer == 'y':
+    pass
+
+print ("hello world")
