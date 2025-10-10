@@ -12,3 +12,9 @@ for index , items in enumerate(range(50,61)):
 
 mytuples = list(enumerate(mylist))
 print(mytuples[0][1])
+
+list_names = ["Maverick", "Alice", "Madeline", "Hazel", "Jack", "Meadow", "Thomas", "Emily", "Mills"]
+
+for index, name in enumerate(list_names):
+    if name[0] == 'M':
+        print(index)
