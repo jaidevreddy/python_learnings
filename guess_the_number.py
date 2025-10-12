@@ -1,7 +1,7 @@
 from random import *
 
 name = input("Enter Your Name: ")
-print(f"Well {name}, i've thought of a number between 1 to 100 and you have only 8 tries to guess it, what number do you think it is")
+print(f"Well {name}, i've thought of a number between 1 to 100\nyou have only 8 tries to guess it")
 
 random = randint(1,101)
 life = 8
@@ -22,9 +22,14 @@ while life>0:
         life -= 1
         print(f"you have {life} chances left")
     elif i == random:
-        print("Thats correct")
+        print(f"Thats correct, you have guessed the right number\nwith {life} chance left")
         break
 
-match life:
-    case -1:
-        print(f"the actual value is {random}")
+else:
+    print("\n")
+    print(f"Your out of chances\nThe actual number is {random}")
+
+
+
+
+
