@@ -3,7 +3,7 @@ from random import *
 name = input("Enter Your Name: ")
 print(f"Well {name}, i've thought of a number between 1 to 100\nyou have only 8 tries to guess it")
 
-random = randint(1,101)
+random_num = randint(1,101)
 life = 8
 
 while life>0:
