@@ -22,7 +22,7 @@ while life>0:
         life -= 1
         print(f"you have {life} chances left")
     elif i == random:
-        print(f"Thats correct, you have guessed the right number\nwith {life} chance left")
+        print(f"Thats correct {name}, you have guessed the right number\nwith {life} chance left")
         break
 
 else:
