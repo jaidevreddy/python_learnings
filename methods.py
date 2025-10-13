@@ -35,3 +35,7 @@ replace = text.replace("methods", "python")
 replace1 = text.replace("e","x")
 print(replace)
 print(replace1)
+
+s = ",:_#,,,,,,:::____##Total_ _Pyt%on,,,,,,::#"
+res = s.lstrip(',:%_#')
+print(res)
