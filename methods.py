@@ -39,3 +39,7 @@ print(replace1)
 s = ",:_#,,,,,,:::____##Total_ _Pyt%on,,,,,,::#"
 res = s.lstrip(',:%_#')
 print(res)
+
+fruits = ["mango", "banana", "cherry", "plum", "grapefruit"]
+fruits.insert(3,"orange")
+print(fruits)
