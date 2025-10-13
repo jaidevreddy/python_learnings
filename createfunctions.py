@@ -13,6 +13,6 @@ greetperson(ename)
 def square(number):
     print(f"answer: {number**2}")
 
-num = int(input("enter number: "))
+num = int(input("enter your number: "))
 square(num)
 
