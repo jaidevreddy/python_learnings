@@ -20,3 +20,13 @@ def usd_to_eur(usd):
     
 dollars = usd_to_eur(10)
 print(dollars)
+
+
+def reverse_words(words):
+    words = words[::-1]
+    words = words.upper()
+    return words
+
+word = 'python'
+res = reverse_words(word)
+print(res)
