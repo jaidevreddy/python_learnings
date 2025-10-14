@@ -17,5 +17,5 @@ def usd_to_eur(usd):
     value = usd*0.90
     return value
     
-dollar = usd_to_eur(10)
-print(dollar)
+dollars = usd_to_eur(10)
+print(dollars)
