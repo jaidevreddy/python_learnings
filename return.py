@@ -13,6 +13,7 @@ def cal(sum1,sum2):
 
 result = cal(10,20)
 
+
 def usd_to_eur(usd):
     value = usd*0.90
     return value
