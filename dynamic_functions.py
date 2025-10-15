@@ -63,3 +63,16 @@ def sum_less(list1):
 numbers = [100,-100,324]
 res = sum_less(numbers)
 print(res)
+
+def count_even(list1):
+    count = 0
+    for i in list1:
+        if i%2 == 0:
+            count = count + 1
+        else:
+            pass
+    return count
+
+numbers = [100,2240,324]
+even_count = count_even(numbers)
+print(even_count)
