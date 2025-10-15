@@ -19,3 +19,16 @@ def check3(num):
 
 result = check3([1000,100,2342,5836])
 print(result)
+
+def checking(val):
+    list1 = []
+    for i in val:
+        if i in range(100,1000):
+            list1.append(i)
+        else:
+            pass
+    
+    return list1
+
+res = checking([1000,100,2342,600])
+print(res)
