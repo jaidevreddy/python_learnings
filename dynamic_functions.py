@@ -32,3 +32,19 @@ def checking(val):
 
 res = checking([1000,100,2342,600])
 print(res)
+
+
+def positive(val):
+    for i in val:
+        if i<0:
+            return False
+        else:
+            pass
+    
+    else:
+        return True
+    
+numbers_list = [100,-1030,-2342,123091,234432432]
+numbers = [100,100,324]
+check = positive(numbers)
+print(check)
