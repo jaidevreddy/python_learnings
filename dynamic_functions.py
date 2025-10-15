@@ -48,3 +48,18 @@ numbers_list = [100,-1030,-2342,123091,234432432]
 numbers = [100,100,324]
 check = positive(numbers)
 print(check)
+
+def sum_less(list1):
+    sum = 0
+    for i in list1:
+        if 0 < i and i < 1000:
+            sum = i + sum
+        else:
+            pass
+    
+    return sum
+    
+
+numbers = [100,-100,324]
+res = sum_less(numbers)
+print(res)
