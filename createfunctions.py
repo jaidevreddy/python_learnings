@@ -1,8 +1,7 @@
-# def greet():
-#     print("hello ")
+def greet():
+    print("hello ")
 
-
-# greet()
+greet()
 
 def greetperson(name):
     print("Hello " + name)
