@@ -29,3 +29,20 @@ coffee_price = [('cappuccino',1.5),
 
 # print (res)
 
+def most_exp_coffee(price_list):
+
+    highest_price = 0
+    expensive_coffee = ''
+
+    for coffee, prices in price_list:
+        if prices > highest_price:
+            highest_price = prices
+            expensive_coffee = coffee
+        else:
+            pass
+
+    return (expensive_coffee, highest_price)
+
+coffee , prices = most_exp_coffee(coffee_price)
+
+print(f'the most expensive coffee is {coffee} and it costs {prices}')
