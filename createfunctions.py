@@ -21,13 +21,13 @@ coffee_price = [('cappuccino',1.5),
                 ('espreso',1.2),
                 ('mocha',1.9)]
 
-# def most_expensive_coffee(value):
-#     highest_price = max(value)
-#     return highest_price
+def most_expensive_coffee(value):
+    highest_price = max(value)
+    return highest_price
 
-# res = most_expensive_coffee(coffee_price)
+res = most_expensive_coffee(coffee_price)
 
-# print (res)
+print (res)
 
 def most_exp_coffee(price_list):
 
