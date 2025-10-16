@@ -25,6 +25,8 @@ def most_expensive_coffee(value):
     highest_price = max(value)
     return highest_price
 
+
+
 res = most_expensive_coffee(coffee_price)
 
 print (res)
