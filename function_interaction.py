@@ -14,5 +14,13 @@ def try_your_luck():
     return int(a_try)
     
 def check_stick(list1,selected):
-    
+    if list1[selected-1] == '-':
+        print("your turn to do the task")
+    else:
+        print(f"you picked {list1[selected-1]} and no work for you")
+
+
+stick_mix = mix(sticks)
+choose_stick = try_your_luck()
+you_got = check_stick(stick_mix,choose_stick)
 
