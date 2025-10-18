@@ -20,16 +20,16 @@
 #         print(f"you picked {list1[selected-1]} and no work for you")
 
 
-# stick_mix = mix(sticks)
-# choose_stick = try_your_luck()
-# you_got = check_stick(stick_mix,choose_stick)
+stick_mix = mix(sticks)
+choose_stick = try_your_luck()
+you_got = check_stick(stick_mix,choose_stick)
 
 
-# def throw_dice():
-#     dice1 = randint(1,7)
-#     dice2 = randint(1,7)
+def throw_dice():
+    dice1 = randint(1,7)
+    dice2 = randint(1,7)
     
-#     return dice1 , dice2
+    return dice1 , dice2
     
 def roll_result(d1,d2):
     sumd = d1 + d2
