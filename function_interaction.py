@@ -1,10 +1,10 @@
-# from random import *
+from random import *
 
-# sticks = ['-','--','---','----']
+sticks = ['-','--','---','----']
 
-# def mix(shuf):
-#     shuffle(shuf)
-#     return shuf
+def mix(shuf):
+    shuffle(shuf)
+    return shuf
 
 def try_your_luck():
     a_try = ''
