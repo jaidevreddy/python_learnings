@@ -1,1 +1,1 @@
-['Tails','Heads']
+i+1

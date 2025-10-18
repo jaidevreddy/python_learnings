@@ -60,16 +60,16 @@
 #     new_list.remove(big_value)
 #     return new_list
 
-# num = [1,2,15,7,2]
+num = [1,2,15,7,2]
 
-# red = reduce_list(num)
-# print(red)
+red = reduce_list(num)
+print(red)
 
-# def average(list1):
-#     total = sum(list1)/len(list1)
-#     return total
+def average(list1):
+    total = sum(list1)/len(list1)
+    return total
 
-# print(average(red))
+print(average(red))
 
 import random 
 
