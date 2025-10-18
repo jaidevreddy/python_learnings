@@ -48,29 +48,50 @@
 # print(message)
     
 
-def reduce_list(list1):
-    new_list = []
-    for i in list1:
-        if i not in new_list:
-            new_list.append(i)
-        else:
-            pass
+# def reduce_list(list1):
+#     new_list = []
+#     for i in list1:
+#         if i not in new_list:
+#             new_list.append(i)
+#         else:
+#             pass
     
-    big_value = max(new_list)
-    new_list.remove(big_value)
-    return new_list
+#     big_value = max(new_list)
+#     new_list.remove(big_value)
+#     return new_list
 
-num = [1,2,15,7,2]
+# num = [1,2,15,7,2]
 
-red = reduce_list(num)
-print(red)
+# red = reduce_list(num)
+# print(red)
 
-def average(list1):
-    total = sum(list1)/len(list1)
-    return total
+# def average(list1):
+#     total = sum(list1)/len(list1)
+#     return total
 
-print(average(red))
+# print(average(red))
 
+import random 
+
+def toss_coin():
+    toss = random.choice(['Tails','Heads'])
+    return toss
+
+def luck(toss, list1):
+
+    if toss == 'Tails':
+        print(f"List will self-destruct")
+        return []
+    elif toss == 'Heads':
+        print(f'List was saved')
+        return list1
+    
+secret_code = [0,0,1]
+
+toss = toss_coin()
+print(toss)
+code = luck(toss,secret_code)
+print(code)
 
 
 

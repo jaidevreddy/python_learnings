@@ -1,1 +1,1 @@
-numerate(len(list1),start=1)
+['Tails','Heads']
