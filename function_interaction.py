@@ -41,11 +41,11 @@
 #     elif sumd >=10:
 #         return f"The sum of your dice is {sumd}. It looks like a winning roll"
     
-# die1, die2 = throw_dice()
-# message = roll_result(die1, die2)
+die1, die2 = throw_dice()
+message = roll_result(die1, die2)
 
-# print(f"the die one shows {die1} and die 2 shows {die2}")
-# print(message)
+print(f"the die one shows {die1} and die 2 shows {die2}")
+print(message)
     
 
 def reduce_list(list1):
