@@ -6,18 +6,18 @@
 #     shuffle(shuf)
 #     return shuf
 
-# def try_your_luck():
-#     a_try = ''
-#     while a_try not in ['1','2','3','4']:
-#         a_try = input("choose a number: ")
+def try_your_luck():
+    a_try = ''
+    while a_try not in ['1','2','3','4']:
+        a_try = input("choose a number: ")
     
-#     return int(a_try)
+    return int(a_try)
     
-# def check_stick(list1,selected):
-#     if list1[selected-1] == '-':
-#         print("your turn to do the task")
-#     else:
-#         print(f"you picked {list1[selected-1]} and no work for you")
+def check_stick(list1,selected):
+    if list1[selected-1] == '-':
+        print("your turn to do the task")
+    else:
+        print(f"you picked {list1[selected-1]} and no work for you")
 
 
 stick_mix = mix(sticks)
