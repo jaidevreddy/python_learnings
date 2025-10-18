@@ -48,17 +48,17 @@
 # print(message)
     
 
-# def reduce_list(list1):
-#     new_list = []
-#     for i in list1:
-#         if i not in new_list:
-#             new_list.append(i)
-#         else:
-#             pass
+def reduce_list(list1):
+    new_list = []
+    for i in list1:
+        if i not in new_list:
+            new_list.append(i)
+        else:
+            pass
     
-#     big_value = max(new_list)
-#     new_list.remove(big_value)
-#     return new_list
+    big_value = max(new_list)
+    new_list.remove(big_value)
+    return new_list
 
 num = [1,2,15,7,2]
 
