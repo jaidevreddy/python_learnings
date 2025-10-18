@@ -31,15 +31,15 @@
     
 #     return dice1 , dice2
     
-# def roll_result(d1,d2):
-#     sumd = d1 + d2
+def roll_result(d1,d2):
+    sumd = d1 + d2
     
-#     if sumd <= 6:
-#         return f"The sum of your dice is {sumd}. Unfortunate"
-#     elif sumd < 10:
-#         return f"The sum of your dice is {sumd}. You have a good chance"
-#     elif sumd >=10:
-#         return f"The sum of your dice is {sumd}. It looks like a winning roll"
+    if sumd <= 6:
+        return f"The sum of your dice is {sumd}. Unfortunate"
+    elif sumd < 10:
+        return f"The sum of your dice is {sumd}. You have a good chance"
+    elif sumd >=10:
+        return f"The sum of your dice is {sumd}. It looks like a winning roll"
     
 die1, die2 = throw_dice()
 message = roll_result(die1, die2)
