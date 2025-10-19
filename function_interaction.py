@@ -86,7 +86,7 @@ def luck(toss, list1):
         print(f'List was saved')
         return list1
     
-secretcode = [0,0,1]
+secret_code = [0,0,1]
 
 toss = toss_coin()
 print(toss)
