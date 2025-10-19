@@ -71,8 +71,6 @@ def average(list1):
 
 print(average(red))
 
-import random 
-
 def toss_coin():
     toss = random.choice(['Tails','Heads'])
     return toss
