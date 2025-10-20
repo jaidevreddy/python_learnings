@@ -17,3 +17,20 @@ def sum_squares(*args):
 
         return total
     
+print(sum_squares(5,2,5,3,5,224,3,325,44))
+
+def absoulte_sum(*args):
+    total = 0
+
+    for num in args:
+        if num >= 0:
+            total = total + num
+        elif num < 0:
+            num = num * -1
+            total = total + num
+    
+    return total
+
+print(absoulte_sum(1,-2,4,-435,-500))
+
+
