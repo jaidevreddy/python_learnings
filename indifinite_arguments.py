@@ -1,4 +1,4 @@
-def sums(a,b):
-    return a + b
+def sums(*args):
+    return sum(args)
 
-print(sums(6,7))
+print(sums(6,7,8))
