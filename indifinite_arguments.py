@@ -8,6 +8,15 @@ def sums(*args):
 
 print(sums(6,7,8))
 
+print(sums(6,7,8))
+
+def sums2(*args):
+    total = sum(args)
+    
+    return total
+
+print(sums2(6,7,8))
+
 def sum_squares(*args):
 
     total = 0
