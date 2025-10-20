@@ -34,3 +34,9 @@ def absoulte_sum(*args):
 print(absoulte_sum(1,-2,4,-435,-500))
 
 
+def personal_numbers(name,*args):
+    total = sum(args)
+
+    return f"{name}, the sum of your numbers is {total}"
+
+print(personal_numbers('name',1,23,4,4))
