@@ -28,24 +28,24 @@
     
 # print(sum_squares(5,2,5,3,5,224,3,325,44))
 
-# def absoulte_sum(*args):
-#     total = 0
+def absoulte_sum(*args):
+    total = 0
 
-#     for num in args:
-#         if num >= 0:
-#             total = total + num
-#         elif num < 0:
-#             num = num * -1
-#             total = total + num
+    for num in args:
+        if num >= 0:
+            total = total + num
+        elif num < 0:
+            num = num * -1
+            total = total + num
     
-#     return total
+    return total
 
-# print(absoulte_sum(1,-2,4,-435,-500))
+print(absoulte_sum(1,-2,4,-435,-500))
 
 
-# def personal_numbers(name,*args):
-#     total = sum(args)
+def personal_numbers(name,*args):
+    total = sum(args)
 
-#     return f"{name}, the sum of your numbers is {total}"
+    return f"{name}, the sum of your numbers is {total}"
 
-# print(personal_numbers('name',1,23,4,4))
+print(personal_numbers('name',1,23,4,4))
