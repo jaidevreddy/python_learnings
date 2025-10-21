@@ -1,32 +1,32 @@
-# def sums(*args):
-#     total = 0
+def sums(*args):
+    total = 0
 
-#     for num in args:
-#         total = total + num
+    for num in args:
+        total = total + num
     
-#     return total
+    return total
 
-# print(sums(6,7,8))
+print(sums(6,7,8))
 
-# print(sums(6,7,8))
+print(sums(6,7,8))
 
-# def sums2(*args):
-#     total = sum(args)
+def sums2(*args):
+    total = sum(args)
     
-#     return total
+    return total
 
-# print(sums2(6,7,8))
+print(sums2(6,7,8))
 
-# def sum_squares(*args):
+def sum_squares(*args):
 
-#     total = 0
+    total = 0
 
-#     for sq in args:
-#         total = sq**2 + total
+    for sq in args:
+        total = sq**2 + total
 
-#         return total
+        return total
     
-# print(sum_squares(5,2,5,3,5,224,3,325,44))
+print(sum_squares(5,2,5,3,5,224,3,325,44))
 
 def absoulte_sum(*args):
     total = 0
