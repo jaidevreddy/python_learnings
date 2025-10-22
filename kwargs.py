@@ -55,3 +55,12 @@ def list_attributes(**kwargs):
 
 
 print(list_attributes(**dict_kwargs))
+
+def describe_person(name,**kwargs):
+    
+    print(f'Characteristics of {name}:')
+    
+    for key, value in kwargs.items():
+        print(f'{key}: {value}')
+
+describe_person("name",**dict_kwargs)
