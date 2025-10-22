@@ -42,3 +42,16 @@ def number_attributes(**kwargs):
     return count
 
 print(number_attributes(**dict_kwargs))
+
+def list_attributes(**kwargs):
+    
+    lists = []
+    
+    for key,value in kwargs.items():
+        
+        lists.append(value)
+        
+    return lists
+
+
+print(list_attributes(**dict_kwargs))
