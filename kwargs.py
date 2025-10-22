@@ -31,3 +31,14 @@ list_args = [1,2,3,4,5]
 dict_kwargs = {'x':'one','y':'two','z':'three'}
 
 test(1,2,*list_args,**dict_kwargs)
+
+def number_attributes(**kwargs):
+
+    count = 0
+    
+    for key in kwargs.items():
+        count = count + 1
+    
+    return count
+
+print(number_attributes(**dict_kwargs))
