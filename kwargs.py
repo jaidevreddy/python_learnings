@@ -26,3 +26,8 @@ def test(num1,num2,*args,**kwargs):
 
 
 test(1,2,100,200,300,400,500,x='one',y='two',z='three')
+
+list_args = [1,2,3,4,5]
+dict_kwargs = {'x':'one','y':'two','z':'three'}
+
+test(1,2,*list_args,**dict_kwargs)
