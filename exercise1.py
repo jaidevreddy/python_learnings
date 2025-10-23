@@ -17,6 +17,6 @@ def return_distincts(num1,num2,num3):
         return intermediate_val
 
 
-print(return_distincts(6,3,2))
+print(return_distincts(6,3,8))
 
     
