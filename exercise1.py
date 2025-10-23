@@ -11,12 +11,12 @@ def return_distincts(num1,num2,num3):
         least_val = min(val_list)
         return least_val
     elif total >= 10 and total <=15:
-        sorted_list = val_list.sort(reverse=False)
-        sorted_list = sorted_list.remove(max(sorted_list))
+        val_list.remove(max(val_list))
+        val_list.remove(min(val_list))
         intermediate_val = val_list[0]
         return intermediate_val
 
 
-print(return_distincts(6,2,3))
+print(return_distincts(6,3,2))
 
     
