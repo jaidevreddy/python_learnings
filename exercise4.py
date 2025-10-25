@@ -6,6 +6,6 @@ def count_prime(num):
     if num < 2:
         return 0
     
-    while iteration >= num:
+    while iteration <= num:
 
-        
+        for n 
