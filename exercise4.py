@@ -16,7 +16,8 @@ def count_prime(num):
             prime_number.append(iteration)
             iteration += 2
         
-    val = ",".join(prime_number)
-    print(val)
+    
+    print(prime_number)
     return len(prime_number)
 
+print(count_prime(100))
