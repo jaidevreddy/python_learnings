@@ -19,7 +19,7 @@ def thegame(list1):
 
         print(f"You have {life} lifes to guess")
 
-        print(" ".join(underscore_list))
+        print("→ word: " + " ".join(underscore_list))
 
         guess = input("Enter your letter: ")
 
@@ -29,7 +29,13 @@ def thegame(list1):
 
                 if list1[i] == guess:
 
-                    list1[i] = guess 
+                    underscore_list[i] = guess
+        else:
+            life -= 1
+
+
+        if '_' not in list1:
+            print(f"Congrate you have guessed the word") 
 
 
 
