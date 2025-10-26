@@ -17,7 +17,22 @@ def thegame(list1):
 
     while life > 0:
 
-        
+        print(f"You have {life} lifes to guess")
+
+        print(" ".join(underscore_list))
+
+        guess = input("Enter your letter: ")
+
+        if guess in list1:
+
+            for i in range(len(list1)):
+
+                if list1[i] == guess:
+
+                    list1[i] = guess 
+
+
+
 
         
 
