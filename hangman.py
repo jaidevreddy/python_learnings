@@ -18,7 +18,8 @@ def thegame(list1):
     underscore_list = ["_"] * (len(list1))
 
     while life > 0:
-
+        
+        print('\n')
         print(f"You have {life} lifes to guess")
 
         print("→ word: " + " ".join(underscore_list))
