@@ -16,14 +16,16 @@ def thegame(list1):
     life = 6
 
     underscore_list = ["_"] * (len(list1))
+    print('\n')
+    print(f"You have {life} lifes to guess")
 
     while life > 0:
         
         print('\n')
-        print(f"You have {life} lifes to guess")
+        print(f"Life: {life}")
 
         print("→ word: " + " ".join(underscore_list))
-        print(f"incorrect letters: {",".join(incorrect_letter)}")
+        print(f"incorrect letters: {",".join(set(incorrect_letter))}")
 
         guess = input("Enter your letter: ").lower()
 
