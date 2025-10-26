@@ -2,6 +2,8 @@ from random import *
 
 words = ['apple','mango','watermelon','orange']
 
+incorrect_letter = []
+
 def choose(list1):
     word = choice(list1)
 
@@ -20,6 +22,7 @@ def thegame(list1):
         print(f"You have {life} lifes to guess")
 
         print("→ word: " + " ".join(underscore_list))
+        print(f"incorrect letters: {",".join(incorrect_letter)}")
 
         guess = input("Enter your letter: ").lower()
 
@@ -31,18 +34,18 @@ def thegame(list1):
 
                     underscore_list[i] = guess
         else:
+            incorrect_letter.append(guess)
             life -= 1
 
 
         if '_' not in underscore_list:
-            print(f"Congrate you have guessed the word")
-            print("→ "+"".join(underscore_list))
-            break
+            msg = (f"Congrate you have guessed the word" + "\n→ "+"".join(underscore_list))
+            return msg
     else:
         print("Your out of lifes, better luch next time")
-        print("the word was "+"".join(list1))
+        return("the word was "+"".join(list1))
 
-    return
+    
 
 
 word = choose(words)
