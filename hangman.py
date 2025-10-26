@@ -13,22 +13,15 @@ def thegame(list1):
 
     life = 6
 
+    underscore_list = "_" * (len(list1))
+
     while life > 0:
 
-        print(f"your have {life} lifes, category fruits")
-
-        underscore_list = "_" * (len(list1))
-        list(underscore_list)
-
-        for i in list1:
-
-            guess = input("Enter you letter: ").lower()
         
-        for n in range(len(list1))
 
-        underscore = " ".join(underscore_list)
-        print(underscore)
+        
 
+        
 
        
 
