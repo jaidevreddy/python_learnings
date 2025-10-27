@@ -1,1 +1,1 @@
-print(choose(words))
+1
