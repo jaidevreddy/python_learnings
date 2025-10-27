@@ -13,3 +13,21 @@ for i in numbers:
     elif i % 5 == 0:
         if i <=150:
             print(i)
+
+print("\n")
+
+# Print multiplication table of a given number
+
+num = 2
+
+for i in range(1,11,1):
+    mul_table = i * num
+
+    print(mul_table)
+
+
+# Calculate sum of all numbers from 1 to a given number
+
+# Write a Python program to accept a number from a user and calculate the sum of all numbers from 1 to a given number
+# For example, if the user entered 10, the output should be 55 (1+2+3+4+5+6+7+8+9+10)
+
