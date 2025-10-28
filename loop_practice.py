@@ -51,3 +51,14 @@ for i in range(10,0,-1):
 
     print(f'-{i}')
 
+
+print("")
+
+# Display a message “Done” after the successful execution of the for loop
+
+
+for i in range(1,6):
+
+    print(i)
+    if i == 5:
+        print('Done!')
