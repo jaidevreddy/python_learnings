@@ -41,3 +41,13 @@ for i in range(1,num+1):
    s += i
 
 print(f'sum = {s}')
+
+
+print("")
+
+# Display numbers from -10 to -1 using for loop
+
+for i in range(1,11,-1):
+
+    print(f'-{i}')
+
