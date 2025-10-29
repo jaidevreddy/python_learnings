@@ -71,3 +71,22 @@ print("")
 my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 
 print(my_list[1::2])
+
+
+print("")
+
+# Find the factorial of a given number
+
+# Write a Python program to use for loop to find the factorial of a given number.
+
+# The factorial (symbol: !) means multiplying all numbers from the chosen number down to 1.
+
+num  = 5
+
+sum = 1
+
+for i in range(1,num+1):
+
+    s *= i
+
+print(s)
