@@ -81,11 +81,11 @@ print("")
 
 # The factorial (symbol: !) means multiplying all numbers from the chosen number down to 1.
 
-num  = 5
+number  = 5
 
 sum = 1
 
-for i in range(1,num+1):
+for i in range(1,number+1):
 
     s *= i
 
