@@ -17,6 +17,7 @@ my_file = open('test.txt')
 for i in my_file:
 
     print(i)
+    
 print("")
 my_file.close()
 
