@@ -6,7 +6,7 @@ my_file.close()
 
 my_file = open('test1.txt','a')
 
-my_file.write("hello starting and where it ended")
+my_file.write("\nhello starting and where it ended")
 
 my_file.close()
 
