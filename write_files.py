@@ -12,6 +12,6 @@ my_file.close()
 
 my_file = open('test1.txt','r')
 
-my_file.write("hello")
+print(my_file.read())
 
 my_file.close()
