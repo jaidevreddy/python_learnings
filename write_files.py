@@ -50,7 +50,7 @@ for i in record_last_session:
 
 my_file.close()
 
-my_file = open('regt.txt','r')
+my_file = open('register.txt','r')
 
 print(my_file.read())
 
