@@ -10,5 +10,11 @@ file = open('tesst.txt','r')
 
 print(file.read())
 
-path3 = os.makedirs('/Users/jaidevreddy/Documents/Documents - Jaidev’s MacBook Pro/python/test_dir')
+# path3 = os.makedirs('/Users/jaidevreddy/Documents/Documents - Jaidev’s MacBook Pro/python/test_dir')
+path3_alt = ('/Users/jaidevreddy/Documents/Documents - Jaidev’s MacBook Pro/python/test_dir')
+
+element = os.path.basename(path3_alt)
+element = os.path.dirname(path3_alt)
+
+print(element)
 
