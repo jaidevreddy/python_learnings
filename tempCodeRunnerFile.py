@@ -1,1 +1,2 @@
-path3 = os.makedirs('/Users/jaidevreddy/Documents/Documents - Jaidev’s MacBook Pro/python/test_dir')
+
+os.rmdir('/Users/jaidevreddy/Documents/Documents - Jaidev’s MacBook Pro/python/test_dir')
