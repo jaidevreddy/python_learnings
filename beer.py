@@ -1,0 +1,1 @@
+print("Your beer name is: \n" + "\"" + input("favorite color: ") + " " + input("favourite animal: ") + "\"\nCongratulations" )
