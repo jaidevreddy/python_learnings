@@ -1,0 +1,7 @@
+print("")
+print("Line 1\nLine 2\nLine 3")
+print("")
+print("A\tB\tC\nD\tE\tF\nG\tH\tI")
+print("")
+print("Backslash \\\nForward Slash /")
+print("")
