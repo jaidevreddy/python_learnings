@@ -3,3 +3,6 @@ print(f"your taking a {course} course")
 
 name = input("Enter your name: ")
 print(name)
+
+num = 1
+print(num + num)
