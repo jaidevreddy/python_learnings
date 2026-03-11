@@ -1,5 +1,5 @@
 name = input("Enter your name: ")
-sales = float(input("Enter your sales: "))
+sales = int(input("Enter your sales: "))
 
 commision = sales * 13/100
 
