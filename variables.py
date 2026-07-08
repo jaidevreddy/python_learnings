@@ -4,4 +4,4 @@ full_name = first_name + " " + last_name
 print(full_name)
 
 course = 'Python'
-print("You are taking a "+ course + " course")
+print(f"You are taking a {course} course")
