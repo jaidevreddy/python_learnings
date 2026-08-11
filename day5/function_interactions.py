@@ -88,3 +88,31 @@ def average(my_list):
 a_list = reduce_list(numbers)
 
 avg = average(a_list)
+
+
+#question 3
+
+from random import choice
+
+secret_codes = [1,2,3]
+
+def toss_coin():
+    
+    coin = ["Heads","Tails"]
+    toss = choice(coin)
+    
+    return toss
+
+def luck (toss,my_list):
+    
+    if toss == 'Tails':
+        print("List will self-destruct")
+        my_list.clear()
+        return my_list
+    else:
+        print("List was saved")
+        return my_list
+
+toss = toss_coin()
+code = luck(toss,secret_codes)
+print(code)
